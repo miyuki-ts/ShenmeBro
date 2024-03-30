@@ -1,0 +1,71 @@
+body {
+  margin-top: 2%;
+  background-color: #2E3138;
+  font-family: Arial, sans-serif;
+}
+
+#header, #content {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#header img, #content img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+#header h1, #content h2 {
+  color: white;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+#miyuki, #tomyb, #hessien, #jim608 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+}
+
+#miyuki img, #tomyb img, #hessien img, #jim608 img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#miyuki h2, #tomyb h2, #hessien h2, #jim608 h2 {
+  color: #DBF0F0;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+#miyuki p, #tomyb p, #hessien p, #jim608 p {
+  color: #DBF0F0;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#forum {
+  margin-top: 0%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+#forum h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#forum:hover h1 {
+  color: rgb(81, 175, 161);
+}
+
+#mappools {
+  margin-top: 3%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
